@@ -1,0 +1,7 @@
+jj_webbing:
+    resource: "@JJWebbingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

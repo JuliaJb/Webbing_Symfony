@@ -1,0 +1,3 @@
+jj_webbing_homepage:
+    path:     /
+    defaults: { _controller: JJWebbingBundle:Default:index }

@@ -1,5 +1,10 @@
-<html>
-  <body>
-    Ceci est la home
-  </body>
-</html>
+{% extends "JJWebbingBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Index{% endblock %}
+
+
+{% block body %}
+
+{{ include("JJWebbingBundle:Default:login.html.twig") }}
+  Notre plateforme est un peu vide pour le moment, mais cela viendra !
+{% endblock %}

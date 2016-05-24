@@ -11,13 +11,13 @@ class DefaultController extends Controller
         return $this->render('JJWebbingBundle:Default:home.html.twig');
     }
 
-    public function loginAction()
+    public function mauriceAction()
     {
-        return $this->render('JJWebbingBundle:Default:login.html.twig');
+        return $this->render('JJWebbingBundle:Default:maurice.html.twig');
     }
 
-    public function profilAction()
+    public function franceAction()
     {
-        return $this->render('JJWebbingBundle:Default:profil.html.twig');
+        return $this->render('JJWebbingBundle:Default:france.html.twig');
     }
 }

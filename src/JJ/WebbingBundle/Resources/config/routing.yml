@@ -1,14 +1,39 @@
 jj_webbing_homepage:
-    path:     /
+    path:     /home
     defaults:
          _controller: JJWebbingBundle:Default:home
 
 jj_platform_login:
-    path:      /login
+    path:      /admin
     defaults:
-        _controller: JJWebbingBundle:Default:login
+        _controller: JJWebbingBundle:Admin:admin
     
-jj_platform_profil:
-    path:      /profil
+jj_platform_forum:
+    path:      /forum
     defaults:
-        _controller: JJWebbingBundle:Default:profil
+        _controller: JJWebbingBundle:Forum:forum
+
+jj_platform_photo:
+    path:      /photo
+    defaults:
+        _controller: JJWebbingBundle:Photo:photo
+
+jj_platform_maurice:
+    path:      /maurice
+    defaults:
+        _controller: JJWebbingBundle:Default:maurice
+
+jj_platform_france:
+    path:      /france
+    defaults:
+        _controller: JJWebbingBundle:Default:france
+
+jj_platform_plan:
+    path:      /plan
+    defaults:
+        _controller: JJWebbingBundle:Plan:plan
+
+jj_platform_mon_profil:
+    path:      /mon_profil
+    defaults:
+        _controller: JJWebbingBundle:Connect:mon_profil
